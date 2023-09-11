@@ -1,0 +1,42 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Tahoma', sans-serif;
+}
+
+body {
+    background-color: #232527;
+    text-align: center;
+}
+
+.dropdown {
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    padding-top: 200px;
+    border: 1px solid black;
+}
+
+button {
+    height: 64px;
+    width: 64px;
+    border: none;
+    border-radius: 10px;
+    font-size: 4.8rem;
+    background-color: #191b1d;
+    text-align: center;
+    color: gainsboro;
+}
+
+button:hover {
+    background-color: #37393b;
+}
+
+button:active {
+    background-color: gainsboro;
+    color: #191b1d;
+}
